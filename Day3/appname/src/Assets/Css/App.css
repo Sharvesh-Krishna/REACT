@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100;1,200;1,300;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    
+}
+
+.content
+{
+    padding-left: 3cm;
+    width:100%;
+    height: auto;
+    /* background-color: #0e0202;  */
+    /* background-image: url(C:\Users\VIKRAM\Documents\GitHub\React_IRC\Day3\myapp\src\Assets\Img\final.jpg); */
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.81;
+    padding: 0px;
+    /* border-color: #f7f3f3; */
+    /* flex-direction: column; */
+}
+
+.card{
+    width:40%;
+    margin-left: 3cm;
+    background-image: url('https://st4.depositphotos.com/1468732/20713/v/450/depositphotos_207135872-stock-illustration-hand-drawing-interior-design-bedroom.jpg');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+.info{
+    width:40%;
+    overflow: hidden;
+}
+.content .info .c{
+    padding-left: 20px;
+    color: #01c5f6;
+    font-size: 55px;
+    text-transform:uppercase;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-top: 20vh;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.c:hover
+{
+    transform: scale(1.05);
+    overflow: hidden;
+}
+
+.content .info h2 span{
+    color:#b8b6b6;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.content .info p{
+    font-size: 20px;
+    font-weight: 800;
+    width:100%;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+
+.media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto ;
+}
+
+.media-icons a{
+    position: relative;
+    color:#f7f3f3;
+    font-size: 25px;
+    transition: 0.5s;
+    transition-property: transform; 
+    margin-right: 60px;
+    /* border-radius: 5px;  */
+}
+
+.media-icons a:hover{
+    /* color: #000; */
+    color: rgb(74, 210, 227);
+    transform:scale(1.3) ;
+}

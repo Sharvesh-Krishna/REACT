@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+.star {
+  transform-style: preserve-3d;
+  width: 3px;
+  height: 3px;
+  position: absolute;
+  color: rgb(74, 210, 227);
+}
+.star:before {
+  position: absolute;
+  content: '\2726';
+  color: inherit;
+  inset: 0;
+  text-shadow: 0 0 .8em #fff5;
+}
+body {
+  margin: 0;
+  right: 0;
+  padding:0;
+}
