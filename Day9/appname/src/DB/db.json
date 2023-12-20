@@ -1,0 +1,17 @@
+{
+  "users": [],
+  "products": [
+    {
+      "pid": 1,
+      "productname": "Sprinklers"
+    },
+    {
+      "pid": 2,
+      "productname": "Hoes"
+    },
+    {
+      "pid": 3,
+      "productname": "Pressure Head"
+    }
+  ]
+}
